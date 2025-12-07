@@ -7,7 +7,7 @@ backend/node_modules/
 frontend/dist/
 frontend/build/
 .vercel
-
+backend/data/sales.csv
 # Environment variables
 .env
 .env.local
