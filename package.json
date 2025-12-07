@@ -1,0 +1,17 @@
+{
+  "name": "truestate-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm install && npm run build",
+    "migrate": "node scripts/migrate-csv-to-mongodb.js",
+    "vercel-build": "cd frontend && npm install && npm run build"
+  },
+  "dependencies": {
+    "mongodb": "^6.3.0"
+  },
+  "devDependencies": {
+    "csv-parser": "^3.0.0"
+  }
+}
